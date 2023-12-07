@@ -3,7 +3,8 @@ body{
   background-repeat: no-repeat;
 }
 center{
-
+  background-image: url("heading.jpg");
+  background-repeat: no-repeat;
 }
 h1 { 
   font: small-caps bold 24px/1 sans-serif;

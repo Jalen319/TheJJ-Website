@@ -3,7 +3,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-center{
+#heading{
   background-image: url("heading.jpg");
   background-repeat: no-repeat;
 }

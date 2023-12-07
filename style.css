@@ -1,6 +1,7 @@
 body{
   background-image: url("blue back.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 center{
   background-image: url("heading.jpg");

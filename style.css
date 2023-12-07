@@ -2,6 +2,9 @@ body{
   background-image: url("blue back.jpg");
   background-repeat: no-repeat;
 }
+center{
+
+}
 h1 { 
   font: small-caps bold 24px/1 sans-serif;
 }

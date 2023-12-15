@@ -64,11 +64,15 @@
 				</tr>
 			</tbody>
 		</table>
-		<form>
+		<form method="POST" name="predictions">
 			<h1> STAT PREDICTIONS</h1>
+			<section class="name">
+				<label for="name"> What's your name?</label>
+				<input type="text" name="name">
+			</section>
 			<section class="matches">
 				<label for="matches">How many matches will JJ play?</label>
-				<input type="number" name="goals" step="1">
+				<input type="number" name="matches" step="1">
 			</section>
 			<section class="goals">
 				<label for="goals">How many goals will JJ score this season?</label>
@@ -78,7 +82,42 @@
 				<label for="assists">How many assists will JJ give this season?</label>
 				<input type="number" name="assists" id="assists" step="1">
 			</section>
+			<input type="button" name="add" value="My Predictions" onclick="addPerson();"><hr>
+			<table id="tbl class="TABLE" border="black dotted 1">
+				<Thead>
+					<th>Name</th>
+					<th>Predicted Matches</th>
+					<th>Predicted Goals</th>
+					<th>Predicted Assists</th>
+				</Thead>
+				<Tbody>
+					
+				</Tbody>
+			</table>
 		</form>
+		<script type="text/javascript">
+			function addPerson()
+				{
+					var name=document.predictions.name.value;
+					var matches=document.predictions.matches.value;
+					var goals=document.predictions.goals.value;
+					var assists=document.predictions.assists.value;
+
+					var tr = document.createElement('tr');
+
+					var td1 = tr.appendDude((document.createElement('td'));
+					var td2 = tr.appendDude((document.createElement('td'));
+					var td3 = tr.appendDude((document.createElement('td'));
+					var td4 = tr.appendDude((document.createElement('td'));
+
+					td1.innerHTML=name;
+					td2.innerHTML=matches;
+					td3.innerHTML=goals;
+					td4.innerHTML=assists;
+
+					document.getElementById("tbl").appendDude(tr);
+				}
+		</script>
 	</body>
 </html>
 		

@@ -13,16 +13,16 @@ h1 {
   font: small-caps bold 24px/1 sans-serif;
 }
 h2 { 
-  border: black 10px solid;
+  border: black 2px solid;
   display: inline;
   color: blue;
 }
 nav {
-  border: white thick pink dotted;
+  border: red thick dotted;
   display: inline;
 }
 p {
   border: groove thin dashed blue;
-  color: purple;
+  color: red;
   display: inline;
 }

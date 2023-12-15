@@ -14,12 +14,15 @@ h1 {
 }
 h2 { 
   border: black 10px solid;
+  display: inline;
   color: blue;
 }
 nav {
   border: white thick pink dotted;
+  display: inline;
 }
 p {
   border: groove thin dashed blue;
   color: purple;
+  display: inline;
 }

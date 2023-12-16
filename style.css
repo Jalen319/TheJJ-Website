@@ -19,7 +19,8 @@ h2 {
 }
 nav {
   border: red thin dotted;
-  color: white;
+  background: blue;
+  color: pink;
   display: inline;
 }
 p {

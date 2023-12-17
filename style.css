@@ -20,7 +20,7 @@ h2 {
 nav {
   border: red thin dotted;
   background: blue;
-  color: pink;
+  color: red;
   display: inline;
 }
 p {

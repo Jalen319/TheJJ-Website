@@ -66,33 +66,22 @@
 		</table>
 		<form method="POST" name="predictions">
 			<h1> STAT PREDICTIONS</h1>
-			<section class="name">
-				<label for="name"> What's your name?</label>
-				<input type="text" name="name">
-			</section>
-			<section class="matches">
-				<label for="matches">How many matches will JJ play?</label>
-				<input type="number" name="matches" step="1">
-			</section>
-			<section class="goals">
-				<label for="goals">How many goals will JJ score this season?</label>
-				<input type="number" name="goals" id="goals" step="1">
-			</section>
-			<section class="assists">
-				<label for="assists">How many assists will JJ give this season?</label>
-				<input type="number" name="assists" id="assists" step="1">
-			</section>
+			What's your name?<input type="text" name="name">
+			How many matches will JJ play?<input type="number" name="matches">
+			How many goals will JJ score this season?<input type="number" name="goals">
+			How many assists will JJ give this season?<input type="number" name="assists">
+		
 			<input type="button" name="add" value="My Predictions" onclick="addPerson();"><hr>
-			<table id="tbl class="TABLE" border="black dotted 1">
-				<Thead>
+			<table id="tbl" class="TABLE" border="black dotted 1">
+				<thead>
 					<th>Name</th>
 					<th>Predicted Matches</th>
 					<th>Predicted Goals</th>
 					<th>Predicted Assists</th>
-				</Thead>
-				<Tbody>
+				</thead>
+				<tbody>
 					
-				</Tbody>
+				</tbody>
 			</table>
 		</form>
 		<script type="text/javascript">

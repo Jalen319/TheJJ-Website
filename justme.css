@@ -11,3 +11,6 @@ nav{
   border: black solid thin;
   display: inline;
 }
+#tbl{
+  background: white;
+}

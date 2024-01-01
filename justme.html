@@ -67,40 +67,44 @@
 		</table>
 		<form method="POST" name="predictions">
 			<h1> STAT PREDICTIONS</h1>
-			What's your name?<input type="text" name="name">
+			What's your name?<input type="text" name="names">
 			How many matches will JJ play?<input type="number" name="matches">
 			How many goals will JJ score this season?<input type="number" name="goals">
 			How many assists will JJ give this season?<input type="number" name="assists">
-		
-			<input type="button" name="add" value="My Predictions" onclick="addPerson();"><hr>
-			<table id="tbl" class="TABLE" border="black dotted 1">
+			<br><br>
+			<input type="button" name="add" value="Add Predictions" onclick="addPerson();"><hr>
+			<table id="tbl" class="table" border="1">
 				<thead>
 					<th>Name</th>
 					<th>Predicted Matches</th>
 					<th>Predicted Goals</th>
 					<th>Predicted Assists</th>
 				</thead>
-				<tbody>
+				
+					<tbody>
 					
-				</tbody>
+					</tbody>
 			</table>
+			
 		</form>
+		
 		<script type="text/javascript">
+			
 			function addPerson()
 				{
-					var name=document.predictions.name.value;
+					var names=document.predictions.names.value;
 					var matches=document.predictions.matches.value;
 					var goals=document.predictions.goals.value;
 					var assists=document.predictions.assists.value;
 
 					var tr = document.createElement('tr');
 
-					var td1 = tr.appendChild((document.createElement('td'));
-					var td2 = tr.appendChild((document.createElement('td'));
-					var td3 = tr.appendChild((document.createElement('td'));
-					var td4 = tr.appendChild((document.createElement('td'));
+					var td1 = tr.appendChild(document.createElement('td'));
+					var td2 = tr.appendChild(document.createElement('td'));
+					var td3 = tr.appendChild(document.createElement('td'));
+					var td4 = tr.appendChild(document.createElement('td'));
 
-					td1.innerHTML=name;
+					td1.innerHTML=names;
 					td2.innerHTML=matches;
 					td3.innerHTML=goals;
 					td4.innerHTML=assists;

@@ -30,3 +30,6 @@ p {
   color: red;
   display: inline;
 }
+p:hover {
+  color: darkorange;
+}

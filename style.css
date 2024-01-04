@@ -9,7 +9,6 @@ body{
   background-size: cover;
   background-position: center;
   color: yellow;
-  border: violet solid thin;
 }
 h1 { 
   font: small-caps bold 24px/1 sans-serif;

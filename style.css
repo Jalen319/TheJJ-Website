@@ -35,4 +35,5 @@ p:hover {
 .football{
   background: brown;
   background-size: cover;
+  border-bottom: black solid 1px;
 }

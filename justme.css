@@ -18,4 +18,5 @@ nav{
 tr{
   background: white;
   border: solid thick white;
+  background-size: cover;
 }

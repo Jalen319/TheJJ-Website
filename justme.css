@@ -15,3 +15,7 @@ nav{
   background: white;
   background-size: cover;
 }
+tr{
+  background: white;
+  border: solid thick white;
+}

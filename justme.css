@@ -15,8 +15,9 @@ nav{
   background: white;
   background-size: cover;
 }
-tr{
+table,th,td{
   background: white;
   border: solid thick white;
   background-size: cover;
 }
+  

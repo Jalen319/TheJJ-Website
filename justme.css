@@ -19,5 +19,6 @@ table,th,td{
   background: white;
   border: solid thick black;
   background-size: cover;
+  font:bold;
 }
   

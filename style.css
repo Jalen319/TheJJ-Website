@@ -28,6 +28,7 @@ p {
   border: groove thin dashed red;
   color: red;
   display: inline;
+  background-image: url("cool blue.jpeg");
 }
 p:hover {
   color: darkorange;
@@ -36,4 +37,7 @@ p:hover {
   background: brown;
   background-size: cover;
   border-bottom: black solid 1px;
+}
+#website{
+  background-image: url("white.jpg");
 }

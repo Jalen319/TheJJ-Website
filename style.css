@@ -28,7 +28,7 @@ p {
   border: groove thin dashed red;
   color: red;
   display: inline;
-  background-image: url("cool blue.jpeg");
+  background-image: url("bblue.svg");
   background-size: cover;
 }
 p:hover {

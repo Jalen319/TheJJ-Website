@@ -29,6 +29,7 @@ p {
   color: red;
   display: inline;
   background-image: url("cool blue.jpeg");
+  background-size: cover;
 }
 p:hover {
   color: darkorange;
@@ -40,4 +41,5 @@ p:hover {
 }
 #website{
   background-image: url("white.jpg");
+  background-size: cover;
 }

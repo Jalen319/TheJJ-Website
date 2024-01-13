@@ -21,4 +21,7 @@ table,th,td{
   background-size: cover;
   font:bold;
 }
-  
+h1{
+  background: black
+  background-size: cover;
+}

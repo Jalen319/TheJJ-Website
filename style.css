@@ -37,6 +37,7 @@ p:hover {
 }
 .football{
   background: brown;
+  background-size: 1400 px;
   max-width:1400px;
   border-bottom: black solid 1px;
 }

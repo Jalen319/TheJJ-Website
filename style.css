@@ -11,6 +11,8 @@ body{
   background-position: center;
   color: orange; /* color is best according to color wheel*/
   font-family: Copperplate;
+  border: 1px solid blue;
+  outline: 1px solid black;
 }
 h1 { 
   font: small-caps bold 24px/1 sans-serif;

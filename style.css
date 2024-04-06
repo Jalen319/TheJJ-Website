@@ -10,6 +10,7 @@ body{
   background-size: cover;
   background-position: center;
   color: orange; /* color is best according to color wheel*/
+  font-family: rockwell;
 }
 h1 { 
   font: small-caps bold 24px/1 sans-serif;

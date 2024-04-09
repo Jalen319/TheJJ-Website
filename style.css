@@ -34,6 +34,7 @@ p {
   display: inline;
   background-image: url("bblue.svg");
   background-size: cover;
+  font-size: 35px;
 }
 p:hover {
   color: darkorange;

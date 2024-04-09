@@ -11,7 +11,6 @@ body{
   background-position: center;
   color: orange; /* color is best according to color wheel*/
   font-family: Copperplate;
-  border: 1px solid blue;
   outline: 1px solid black;
 }
 h1 { 
@@ -44,12 +43,13 @@ p:hover {
   background-size: 100% 100%;
   max-width:400px;
   border-bottom: black solid 1px;
-  font-size: 35px;
+  font-size: 2em;
 }
 .main h1{ /* use . for classes */
   background-color:black;
   background-size: 100% 100%;
   color: blue;
+  font-size: 3em;
 }
 .heading h2{
   border-bottom: 5px solid orange:

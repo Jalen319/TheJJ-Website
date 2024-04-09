@@ -7,6 +7,7 @@ body{
 #heading {
   background-image: url("heading.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   color: orange; /* color is best according to color wheel*/
   font-family: Copperplate;

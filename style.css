@@ -54,3 +54,8 @@ p:hover {
 .heading h2{
   border-bottom: 5px solid orange:
 }
+a:hover {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}

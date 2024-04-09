@@ -12,6 +12,7 @@ body{
   color: orange; /* color is best according to color wheel*/
   font-family: Copperplate;
   outline: 1px solid black;
+  text-decoration: underline;
 }
 h1 { 
   font: small-caps bold 24px/1 sans-serif;
